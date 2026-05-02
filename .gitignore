@@ -1,0 +1,91 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aar
+
+# Files for the Dalvik VM
+*.dex
+
+# Java/Kotlin class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files
+.gradle/
+**/build/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio files
+.idea/
+*.iml
+*.iws
+
+# Keystore files (MUY IMPORTANTE no subirlos)
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# NDK
+obj/
+
+# Caches
+captures/
+.gradle/
+cache/
+*.tmp
+
+# Navigation editor temp files
+.navigation/
+
+# Google Services (opcional, depende del caso)
+google-services.json
+
+# Firebase config (si aplica)
+firebase.json
+
+# Proguard
+proguard/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Kotlin
+*.kotlin_module
+
+# IntelliJ
+out/
+
+# Coverage
+coverage/
+*.ec
+
+# JetBrains
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
