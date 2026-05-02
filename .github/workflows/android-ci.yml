@@ -14,19 +14,18 @@ jobs:
       - name: Checkout de código
         uses: actions/checkout@v4
 
-      # Configuración de JDK 11 (según tus requisitos)
+      # Configuración de JDK 17
       - name: Configurar Java 11
         uses: actions/setup-java@v4
         with:
-          distribution: 'zulu' # Zulu es excelente para compatibilidad con Android
+          distribution: 'zulu' 
           java-version: '17'
           cache: 'gradle'
 
       - name: Dar permisos a Gradlew
         run: chmod +x gradlew
 
-      # 1. Ejecutar Unit Tests (Los 14 casos que mencionaste)
-      # Esto incluye AmountFilter, AuthorizePayment, GetTransactions y MaskFrame
+      # 1. Ejecutar Unit Tests 
       - name: Ejecutar Unit Tests
         run: ./gradlew test
 
